@@ -7,7 +7,7 @@
 
 // ===== Settings ===== //
 const uint8_t channels[] = {1, 6, 11}; // used Wi-Fi channels (available: 1-14)
-const bool wpa2 = false; // WPA2 networks
+const bool wpa2 = true; // WPA2 networks
 const bool appendSpaces = true; // makes all SSIDs 32 characters long to improve performance
 
 /*
@@ -45,6 +45,7 @@ const char ssids[] PROGMEM = {
   "Wu Tang LAN\n"
   "Darude LANstorm\n"
   "Never Gonna Give You Up\n"
+  "Never Gonna Disconnect\n"
   "Hide Yo Kids, Hide Yo Wi-Fi\n"
   "Loading…\n"
   "Searching…\n"
@@ -67,6 +68,13 @@ const char ssids[] PROGMEM = {
   "Life in the Fast LAN\n"
   "The Creep Next Door\n"
   "Ye Olde Internet\n"
+  "Netgear12\n"
+  "XXX\n"
+  "Toilet Games\n"
+  "KungFi\n"
+  "Walgreens\n"
+  "Ghostbusters\n"
+  "My Wifi Sucks\n"
 };
 // ==================== //
 
